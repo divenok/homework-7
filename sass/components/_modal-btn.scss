@@ -1,0 +1,20 @@
+.modal-btn {
+    min-width: 200px;
+  
+    margin: 0;
+  
+    font-family: inherit;
+    font-weight: var(--secondary-font-weight);
+    font-style: normal;
+    font-size: var(--secondary-font-size);
+    line-height: 1.88;
+    letter-spacing: var(--secondary-letter-spacing);
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    color: var(--primary-text-color-theme-dark);
+    background-color: var(--accent-color);
+  
+    cursor: pointer;
+  }
