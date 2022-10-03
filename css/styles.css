@@ -9,15 +9,7 @@
   line-height: 1.19;
   color: var(--accent-color);
 }
-.title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
 
-  font-weight: var(--secondary-font-weight);
-  font-size: 36px;
-  line-height: var(--secondary-line-height);
-}
 
 
 
@@ -791,7 +783,7 @@
 
   color: rgba(255, 255, 255, 1);
 }
-.projects-item-titel {
+.projects-item-title {
   margin-bottom: 4px;
   font-family: var(--primary-font-family);
   font-style: normal;
