@@ -5,17 +5,16 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-  
     background-color: rgba(0, 0, 0, 0.2);
-    opacity: 1;
     transform: scale(1);
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
-      opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
-      visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .backdrop.is-hidden {
+    opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &.is-hidden {
     opacity: 0;
     transform: scale(0.5);
     visibility: hidden;
     pointer-events: none;
   }
+}
