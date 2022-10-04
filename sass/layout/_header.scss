@@ -1,0 +1,115 @@
+.header {
+    border-bottom: 1px solid #eeeeee;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .logo-header {
+    margin-right: 93px;
+  }
+  .logo-secondary-half-header {
+    color: var(--primary-text-color-theme-light);
+  }
+  .menu-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .menu-nav-link {
+    position: relative;
+    font-weight: var(--primary-font-weight);
+    font-size: var(--primary-font-size);
+    line-height: var(--primary-line-height);
+    letter-spacing: 0.02em;
+  
+    color: var(--primary-text-color-theme-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .menu-nav-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -34px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    height: 4px;
+    border-radius: 2px;
+  
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+    background-color: var(--accent-color);
+  }
+  .current,
+  .menu-nav-link:hover,
+  .menu-nav-link:focus {
+    color: var(--accent-color);
+  }
+  .current::after,
+  .menu-nav-link:hover::after,
+  .menu-nav-link:focus::after {
+    opacity: 1;
+  }
+  .contacts-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .mail-header {
+    margin-right: 30px;
+  }
+  .mail-header,
+  .phone-namber-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-height);
+    letter-spacing: 0.02em;
+  
+    color: var(--secondary-text-color-theme-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contacts-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .envelope {
+    margin-right: 10px;
+    min-width: 16px;
+    fill: var(--secondary-text-color-theme-light);
+  }
+  .mail-header:hover,
+  .mail-header:focus,
+  .phone-namber-header:hover,
+  .phone-namber-header:focus {
+    color: var(--accent-color);
+  }
+  .mail-header:hover .envelope,
+  .mail-header:focus .envelope,
+  .phone-namber-header:hover .smartphone,
+  .phone-namber-header:focus .smartphone {
+    fill: var(--accent-color);
+  }
+  
+  .smartphone {
+    margin-right: 10px;
+    min-width: 10px;
+    fill: var(--secondary-text-color-theme-light);
+  }

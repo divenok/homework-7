@@ -1,0 +1,50 @@
+.filters-portfolio-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .filters-portfolio-item:not(:last-child) {
+    margin-right: 8px;
+  }
+  .filters-btn {
+    display: inline-block;
+    min-height: 38px;
+    text-align: center;
+  
+    margin: 0;
+    
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: var(--primary-font-weight);
+    font-size: var(--secondary-font-size);
+    line-height: 1.63;
+    letter-spacing: var(--primary-letter-spacing);
+    cursor: pointer;
+  
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    color: var(--primary-text-color-theme-light);
+    background: var(--tertiary-background-color);
+  }
+  .filters-btn:hover,
+  .filters-btn:focus {
+    color: var(--primary-text-color-theme-dark);
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  .filters-btn-all {
+    min-width: 73px;
+  }
+  .filters-btn-web {
+    min-width: 125px;
+  }
+  .filters-btn-add {
+    min-width: 112px;
+  }
+  .filters-btn-diz {
+    min-width: 103px;
+  }
+  .filters-btn-mrcet {
+    min-width: 130px;
+  }
