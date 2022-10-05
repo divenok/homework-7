@@ -21,32 +21,30 @@
   <body>
     <!--start header-->
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <nav class="navigation">
-          <a class="logo logo-header link" href="./index.html"
-            ><span class="logo-primary-half-header">Web</span
-            ><span class="logo-secondary-half-header">Studio</span>
+          <a class="logo header__logo link" href="./index.html">Web<span class="logo_theme_wight">Studio</span>
           </a>
-          <ul class="menu-nav-list list">
-            <li class="menu-nav-item">
-              <a class="menu-nav-link current link" href="./index.html"
+          <ul class="nav-list list">
+            <li class="nav-list__item">
+              <a class="nav-list__link current link" href="./index.html"
                 >Студія</a
               >
             </li>
-            <li class="menu-nav-item">
-              <a class="menu-nav-link link" href="./portfolio.html"
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li class="menu-nav-item">
-              <a class="menu-nav-link link" href="">Контакти</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--start activ contacts-->
         <ul class="contacts-list list">
           <li class="contacts-item">
-            <a class="mail-header link" href="mailto:info@devstudio.com">
+            <a class="header__mail link" href="mailto:info@devstudio.com">
               <svg class="envelope" width="16" height="12">
                 <use href="./img/sprite.svg#envelope"></use>
               </svg>
@@ -54,7 +52,7 @@
             </a>
           </li>
           <li class="contacts-item">
-            <a class="phone-namber-header link" href="tel:+380961111111">
+            <a class="header__phone link" href="tel:+380961111111">
               <svg class="smartphone" width="10" height="16">
                 <use href="./img/sprite.svg#smartphone"></use>
               </svg>
@@ -71,7 +69,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="modal-btn modal-btn-hero" type="button" data-modal-open>
+          <button class="modal-btn hero__modal-btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -79,53 +77,52 @@
       <!--end hero-->
       <!--start features-->
       <section class="features">
-        <div class="container container-features">
+        <div class="container">
           <h2 class="title visually-hidden">Особливості</h2>
-
           <ul class="features-list list">
             <li class="features-item">
-              <div class="features-button">
-                <svg class="features-buttjn-icon" width="70" height="70">
+              <div class="features__button">
+                <svg class="features__button_icon_antenna" width="70" height="70">
                   <use href="./img/sprite.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="title-description features-title-descriptin">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="descr-features">
+              <h3 class="title-description features__title-description">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features__description">
                 Ідейні міркування, та навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="features-item icon-clock">
-              <div class="features-button">
-                <svg class="features-buttjn-icon" width="70" height="70">
+            <li class="features-item">
+              <div class="features__button">
+                <svg class="features__button_icon_clock" width="70" height="70">
                   <use href="./img/sprite.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="title-description features-title-descriptin">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="descr-features">
+              <h3 class="title-description features__title-description">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features__description">
                 Завдання організації, особливо рамки та місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="features-item icon-diagram">
-              <div class="features-button">
-                <svg class="features-buttjn-icon" width="70" height="70">
+            <li class="features-item">
+              <div class="features__button">
+                <svg class="features__button_icon_diagram" width="70" height="70">
                   <use href="./img/sprite.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="title-description features-title-descriptin">ПЛАНУВАННЯ</h3>
-              <p class="descr-features">
+              <h3 class="title-description features__title-description">ПЛАНУВАННЯ</h3>
+              <p class="features__description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="features-item icon-astronaut">
-              <div class="features-button">
-                <svg class="features-buttjn-icon" width="70" height="70">
+            <li class="features-item">
+              <div class="features__button">
+                <svg class="features__button_icon_astronaut" width="70" height="70">
                   <use href="./img/sprite.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title-description features-title-descriptin">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="descr-features">
+              <h3 class="title-description features__title-description">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features__description">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -405,9 +402,7 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="content-wrapper-footer-address">
-          <p class="logo logo-footer-link">
-            <span class="logo-primary-half-footer">Web</span>
-            <span class="logo-secondary-half-footer">Studio</span>
+          <p class="logo logo-footer-link">Web<span class="logo_theme_dark">Studio</span>
           </p>
           <address class="address">
             <ul class="address-list list">
