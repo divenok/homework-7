@@ -11,12 +11,12 @@
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(33, 150, 243, 0.9);
 
-    .projects-item-link:hover &,
-    .projects-item-link:focus & {
+    .projects-list__link:hover &,
+    .projects-list__link:focus & {
     transform: translateY(0);
   }
   }
-  .description {
+  .projects-list__item-description {
     width: 322px;
   
     font-weight: 400;

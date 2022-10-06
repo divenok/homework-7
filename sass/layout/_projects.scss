@@ -1,8 +1,8 @@
-.projects-portfolio-list {
+  .projects__list {
     display: flex;
     flex-wrap: wrap;
   }
-  .projects-item {
+  .projects-list__item {
     flex-basis: calc((100% - (3 * 30px)) / 3);
     background: var(--primary-text-color-theme-dark);
 
@@ -13,13 +13,13 @@
       margin-bottom: 30px;
     }
   }
-  .projects-item-content {
+  .projects-list__item-content {
     padding: 20px 24px;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
   }
-  .projects-item-link {
+  .projects-list__link {
     display: block;
     margin: 0 auto;
     cursor: pointer;
@@ -28,17 +28,17 @@
     &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-      & .projects-thumb::after,
-      & .projects-thumb::after {
+      
+      & .projects-list__thumb::after {
         transform: translateY(0);
       }
   }
   }
-  .projects-thumb {
+  .projects-list__thumb {
     position: relative;
     overflow: hidden;
   }
-  .projects-item-title {
+  .projects-list__item-title {
     margin-bottom: 4px;
     font-family: var(--primary-font-family);
     font-style: normal;
@@ -49,7 +49,7 @@
   
     color: var(--primary-text-color-theme-light);
   }
-  .projects-direction {
+  .projects-list__item-direction {
     font-size: var(--secondary-font-size);
     line-height: 1.88;
   

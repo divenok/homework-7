@@ -1,12 +1,12 @@
-.filters-portfolio-list {
+.filters__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
-  .filters-portfolio-item:not(:last-child) {
+  .filters-list__item:not(:last-child) {
     margin-right: 8px;
   }
-  .filters-btn {
+  .filters-list__btn {
     display: inline-block;
     min-height: 38px;
     text-align: center;
@@ -35,18 +35,18 @@
   }
   }
   
-  .filters-btn-all {
+  .filters-list__btn-all {
     min-width: 73px;
   }
-  .filters-btn-web {
+  .filters-list__-btn-web {
     min-width: 125px;
   }
-  .filters-btn-add {
+  .filters-list__btn-add {
     min-width: 112px;
   }
-  .filters-btn-diz {
+  .filters-list__btn-diz {
     min-width: 103px;
   }
-  .filters-btn-mrcet {
+  .filters-list__btn-mrcet {
     min-width: 130px;
   }

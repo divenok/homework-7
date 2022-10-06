@@ -6,44 +6,32 @@
     display: flex;
     align-items: baseline;
   }
-  .logo-footer-link {
+  .footer__logo {
     margin-bottom: 20px;
   }
   .logo_theme_dark {
     color: var(--primary-text-color-theme-dark);
   }
   
-  .address-item:not(:last-child) {
+  .address-list__item:not(:last-child) {
     margin-bottom: 9px;
   
     color: var(--primary-text-color-theme-dark);
   }
   
-  .mail-footer,
-  .phone-namber-footer {
+  .address-list__link {
     font-size: var(--primary-font-size);
     line-height: var(--secondary-line-height);
     letter-spacing: var(--primary-letter-spacing);
   
     color: var(--secondary-text-color-theme-dark);
   }
-  .content-wrapper-footer-address {
+  .wrapper {
     display: block;
     margin-right: auto;
   }
-  .content-wrapper-footer-associate {
-    display: block;
-    margin-right: auto;
-  }
-  .social-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  .associate {
+  
+  .footer__associate {
     margin-bottom: 20px;
   
     font-weight: var(--secondary-font-weight);
@@ -52,14 +40,14 @@
   
     color: var(--primary-text-color-theme-dark);
   }
-  .social-list-item-footer {
+  .social-list__item-associate {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
   }
-  .social-list-icon-footer {
+  .social-list__icon-networks {
     fill: var(--primary-text-color-theme-dark);
   }
-   .content-wrapper-footer-subscription {
+   .wrapper-subscription {
     display: block;
     align-items: center;
     min-width: 570px;
@@ -74,20 +62,18 @@
     color: var(--primary-text-color-theme-dark);
   }
   
-  .contact-form-field-footer {
-    display: block;
-  
+  .footer__contact-form-field {
     font-weight: var(--secondary-font-weight);
       
     text-transform: uppercase;
   
     color:var(--primary-text-color-theme-dark);
   }
-  .input-wrapper-footer {
+  .footer__contact-form {
     display: flex;
     align-items: center;
   }
-  .contact-form-input-footer {
+  .contact-form__input-subscription {
     display: block;
     
     padding-left: 16px;
@@ -119,7 +105,7 @@
   
   
   
-  .submit-btn-footer {
+  .submit-btn-subscription {
     display: flex;
     justify-content: center;
     align-items: center;
