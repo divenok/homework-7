@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     position: relative;
   }
-  .work-item {
+  .work-list__item {
     flex-basis: calc((100% - 90px) / 3);
 
     &:not(:nth-child(3n)) {

@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .team-item {
+  .team-list__item {
     min-width: 270px;
     text-align: center;
     flex-basis: calc((100% - (4 * 30px)) / 4);
@@ -25,22 +25,22 @@
       margin-bottom: 30px;
     }
   }
-  
-  .team-member-name {
+  .team-members {
+    padding: 30px 0;
+  }
+  .team-members__name {
     margin-bottom: 10px;
   
     font-weight: var(--primary-font-weight);
     font-size: var(--secondary-font-size);
   }
-  .team-member-position {
+  .team-members__position {
     margin-bottom: 16px;
   
     font-weight: normal;
   
     color: var(--secondary-text-color-theme-light);
   }
-  .team-content-wrapper {
-    padding: 30px 0;
-  }
+  
   
   

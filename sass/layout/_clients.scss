@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .clients-list-link {
+  .clients-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
     width: 170px;
     height: 92px;
   }
-  .clients-list-item {
+  .clients-list__item {
     box-sizing: border-box;
     text-align: center;
     flex-basis: calc((100% - (6 * 30px)) / 6);
@@ -32,12 +32,12 @@
   }
   }
   
-  .clients-list-icon {
+  .clients-list__icon {
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .clients-list-link:hover &,
-    .clients-list-link:focus & {
+    .clients-list__link:hover &,
+    .clients-list__link:focus & {
     fill: var(--accent-color);
   }
   }
